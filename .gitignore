@@ -1,0 +1,21 @@
+cat > .gitignore << 'EOF'
+# Binários
+/bin/
+*.exe
+*.test
+*.out
+
+# Coverage
+coverage.*
+
+# IDE
+.idea/
+*.iml
+.vscode/
+
+# Env
+.env
+
+# Lixo do Windows
+*:Zone.Identifier
+EOF
